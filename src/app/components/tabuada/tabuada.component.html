@@ -1,0 +1,15 @@
+<div class="card text-center text-bg-warning mb-3" style="max-width: 19rem;">
+  <div class="card-header">Qual tabuada deseja saber?</div>
+  <div class="card-body">
+    <div>
+      <input
+        class="card-title"
+        type="number"
+        id="number"
+        [(ngModel)]="numero"
+      />
+      <button type="button" (click)="tabuada()">Calcular</button>
+    </div>
+    <div id="container"></div>
+  </div>
+</div>
